@@ -38,6 +38,7 @@ sudo apt-get install -y opencl-headers build-essential protobuf-compiler \
     
 sudo apt-get clean
 sudo apt-get install -y linux-image-extra-`uname -r` linux-headers-`uname -r` linux-image-`uname -r`
+sudo apt-get update
 sudo apt-get install -y cuda
 sudo apt-get clean
 ```
